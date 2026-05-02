@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Na Potem - Neo Brutalism</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="hero brutal-box">
+      <p class="kicker">NEOBRUTALISM / READ-WATCH-LISTEN LATER</p>
+      <h1>NA POTEM</h1>
+      <p class="lead">
+        Zapisuj rzeczy do przeczytania, obejrzenia i przesluchania.
+        Prosto. Surowo. Bez rozpraszaczy.
+      </p>
+    </header>
+
+    <main class="layout">
+      <section class="panel brutal-box form-panel">
+        <h2>DODAJ POZYCJE</h2>
+        <form id="item-form">
+          <label for="title">Tytul</label>
+          <input id="title" name="title" type="text" placeholder="np. Jak dziala WebGPU" required>
+
+          <label for="url">Link</label>
+          <input id="url" name="url" type="url" placeholder="https://..." required>
+
+          <label for="type">Typ</label>
+          <select id="type" name="type">
+            <option value="video">YouTube / Video</option>
+            <option value="article">Artykul</option>
+            <option value="podcast">Podcast / Audio</option>
+            <option value="other">Inne</option>
+          </select>
+
+          <label for="note">Notatka (opcjonalnie)</label>
+          <textarea id="note" name="note" rows="3" placeholder="Dlaczego chcesz do tego wrocic?"></textarea>
+
+          <button type="submit" class="btn">ZAPISZ</button>
+        </form>
+      </section>
+
+      <section class="panel brutal-box list-panel">
+        <div class="list-header">
+          <h2>LISTA</h2>
+          <div class="actions">
+            <label class="filter-wrap" for="filter">
+              <span>Filtr</span>
+              <select id="filter" name="filter">
+                <option value="all">Wszystko</option>
+                <option value="video">Video</option>
+                <option value="article">Artykuly</option>
+                <option value="podcast">Podcasty</option>
+                <option value="other">Inne</option>
+                <option value="done">Oznaczone jako przerobione</option>
+              </select>
+            </label>
+            <button id="clear-done" class="btn ghost" type="button">USUN PRZEROBIONE</button>
+          </div>
+        </div>
+
+        <ul id="items" class="items"></ul>
+        <p id="empty-state" class="empty-state">Brak pozycji. Dodaj pierwsza rzecz na potem.</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
