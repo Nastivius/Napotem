@@ -3,7 +3,7 @@
 > **NEOBRUTALISM / READ-WATCH-LISTEN LATER**  
 > Zapisuj rzeczy do przeczytania, obejrzenia i przesłuchania. Prosto. Surowo. Bez rozpraszaczy.
 
-![Podgląd aplikacji](link-do-screenshota-tutaj.png) <!-- Zastąp ten link prawdziwym zrzutem ekranu swojej aplikacji -->
+![Podgląd aplikacji](https://github.com/Nastivius/Napotem/blob/main/visualisation.jpeg)
 
 ## 🛠 O Projekcie
 
@@ -29,12 +29,9 @@ Projekt został zbudowany przy użyciu podstawowych, niezawodnych technologii we
 
 ## 💻 Jak uruchomić?
 
-Aplikacja nie wymaga żadnego skomplikowanego środowiska czy serwera (Node.js, bazy danych). Aby ją uruchomić:
-
-1. Sklonuj to repozytorium:
-   ```bash
-   git clone [https://github.com/TwojUsername/na-potem.git](https://github.com/TwojUsername/na-potem.git)
+Aplikacja nie wymaga żadnego skomplikowanego środowiska czy serwera (Node.js, bazy danych). Aby ją uruchomić.
 
 
-![Preview](https://github.com/Nastivius/Napotem/blob/main/visualisation.jpeg)
+
+
 
