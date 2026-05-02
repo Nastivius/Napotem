@@ -31,6 +31,8 @@ Projekt został zbudowany przy użyciu podstawowych, niezawodnych technologii we
 
 Aplikacja nie wymaga żadnego skomplikowanego środowiska czy serwera (Node.js, bazy danych). Aby ją uruchomić.
 
+Opis wygenerowany przez GEMINI :) 
+
 
 
 
